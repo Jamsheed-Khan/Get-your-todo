@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="back"></div>
+    <div class="container">
+        <div class="home">
+            <div class="account">
+                <h2>signup-Page</h2>
+            </div>
+            <div class="input">
+                <input id="sname" type="text" placeholder="Username" class="input-mail" autocomplete="off" required>
+                <!-- <label for="input">Username</label> -->
+                <ion-icon class="icon1" name="people-outline"></ion-icon>
+            </div>
+            <div class="input">
+                <input id="email" placeholder="Email" type="email" class="input-mail" autocomplete="off" required>
+                <!-- <label id="lemail" for="input">Email</label> -->
+                <ion-icon class="icon2" name="mail-outline"></ion-icon>
+            </div>
+            <div class="input">
+                <input id="pass" type="password"  placeholder="password" autocomplete="off" required>
+                <!-- <label for="password">Password</label> -->
+                <ion-icon class="icon3" onclick="passshow()" id="passicon" name="lock-closed-outline"></ion-icon> 
+                <ion-icon class="icon3" onclick="passshow()" style="display: none;" id="passicono" name="lock-open-outline"></ion-icon> 
+            </div>
+            <div class="input">
+                <input id="cpass" type="password" placeholder="confirm password" class="input-mail" autocomplete="off" required>
+                <!-- <label id="lpass" for="input">confirm</label> -->
+                <ion-icon class="icon4" id="icon4" onclick="passshow1()"  name="lock-closed-outline"></ion-icon>
+                <ion-icon class="icon5" id="icon5" onclick="passshow1()"  style="display: none;" name="lock-open-outline"></ion-icon>
+            </div>
+            <div class="input">
+                
+                <button id="btn">Register</button>
+            </div>
+            <div class="log">
+                <p>already have an account?</p>
+                <a href="../login/login.html">login here</a>
+            </div>
+        </div>
+    </div>
+
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script type="module" src="signup.js"></script>
+</body>
+</html>

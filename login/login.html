@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="back"></div>
+    <div class="container">
+        <div class="home">
+            <div class="account">
+                <h2>Login-Page</h2>
+            </div>
+            <div class="input">
+                <input id="lemail" type="text" placeholder="Email" class="input-mail" autocomplete="off" required>
+                <!-- <label for="input">Username</label> -->
+                <ion-icon class="icon" name="mail-outline"></ion-icon>
+            </div>
+            <div class="input">
+                <input id="lpass" type="password" placeholder="Password" autocomplete="off" required>
+                <!-- <label for="password">Password</label> -->
+                <ion-icon class="icon" onclick="passshow()" id="passicon" name="lock-closed-outline"></ion-icon> 
+                <ion-icon class="icon" onclick="passshow()" id="passicono" style="display: none;" name="lock-open-outline"></ion-icon> 
+            </div>
+            <div class="btn">
+                
+                <button id="loginbtn">LOGIN </button>
+                <button><a style="color: white; text-decoration: none;" href="../signup/signup.html">signup</a></button>
+            </div>
+            <div class="log">
+                <!-- <a href="../signup/signup.html">signup here</a> -->
+                <a href="">forgot password</a>
+            </div>
+        </div>
+    </div>
+
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script type="module" src="login.js"></script>
+</body>
+</html>

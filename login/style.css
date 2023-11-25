@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+body{
+    background-color: rgb(74, 74, 204);
+}
+.container{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    min-height: 100vh;
+
+}
+.home{
+    
+  
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 50px 30px;
+border: 1px solid black;
+/* height: 50vh; */
+background-color:white ;
+border-radius: 20px;
+box-shadow: 0px 1px 10px 3px black;
+
+}
+.account 
+{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+.account h2{
+    margin-bottom:30px ;
+    font-weight: 600;
+
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px;
+}
+.input input{
+    padding: 10px;
+    display: flex;
+    position: relative;
+    outline: none;
+    border: none;
+    left: 5%;
+    right: 90%;
+    top: 60%;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border-bottom: 1px solid black;
+    /* border-radius: 10px; */
+    width: 250px;
+}
+/* .input label{
+    position:relative;
+    left: 14%;
+    right: 25%;
+    top: 40%;
+
+} */
+.input .icon{
+    position:relative;
+    right:3%;
+    top: 50%;
+    font-size: 20px;
+  
+
+}
+
+.btn button{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(118, 118, 238);
+   padding: 10px 111px ;
+   border-radius: 12px;
+   margin-top: 15px;
+   transition: .3s;
+}
+.btn button:hover{
+    background-color: rgb(219, 85, 107);
+}
+.log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.log a{
+    margin-left: 12px;
+}

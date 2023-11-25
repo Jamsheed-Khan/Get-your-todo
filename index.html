@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Todo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+            <div class="ul">
+                <div class="had">
+                    <div>
+                        <h3>Website todo</h3>
+                    </div>
+                    <div><button class="delbtn" onclick="openpopap()">+ New task</button></div>
+                </div>
+                <div class="listdiv">
+                    <div id="getul" class="li">
+
+
+
+                        
+                    </div> 
+                    </div>
+                <div class="addbtn">
+                <button class="btn" onclick="dltAll()"  id="addbtn">DeleteAll</button>
+                </div>
+        </div>
+    </div>
+    <div class="inp" id="popap">
+        <input type="text" placeholder="Add list" id="getinp"><br>
+        <button id="addtask" class="addtask" onclick="closspopap()">+ Add task</button>
+    </div>
+    <div class="logoutbtn"><button id="logoutbtn">LOGOUT</button>
+    </button></div>
+    <style>
+        .logoutbtn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #logoutbtn{
+            
+            padding: 10px;
+            background-color:rgb(116, 116, 212);
+            color: white;
+            border-radius: 10px;
+            
+        }
+    </style>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script type="module"  src="app.js"></script>
+</body>
+
+</html>

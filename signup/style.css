@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+body{
+    background-color: rgb(74, 74, 204);
+}
+.container{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    min-height: 100vh;
+
+}
+.home{
+    
+  
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 50px 25px;
+border: 1px solid black;
+/* height: 50vh; */
+background-color:white ;
+border-radius: 20px;
+box-shadow: 0px 1px 10px 3px black;
+
+}
+.account 
+{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+.account h2{
+    font-weight: 600;
+
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.input input{
+    padding: 10px;
+    display: flex;
+    position: relative;
+    outline: none;
+    border: none;
+    left: 5%;
+    right: 90%;
+    top: 50%;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border-bottom: 1px solid black;
+    /* border-radius: 10px; */
+    width: 250px;
+}
+.input label{
+    position: relative;
+    left: -60%;
+    right: 25%;
+    top: -10% !important;
+
+ }
+/*.input #lemail{
+    position: relative;
+    left: -72%;
+}
+.input #cpass{
+    position: relative;
+    left: 10%;
+}
+.input #lpass{
+    position: relative;
+    left: -67%;
+}
+.input #email{
+    
+    position: relative;
+    left: 9%;
+} */
+.input .icon1,.icon2,.icon3,.icon4{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position:relative;
+    right:10%;
+    top: 60%;
+    /* top: 50%; */
+    font-size: 20px;
+  
+
+}
+.input .icon1{
+position: relative;
+    right:3%;
+}
+.input .icon2{
+    position: relative;
+    right:03%;
+}
+.input .icon3{
+    position: relative;
+    right:3%;
+}
+    .input .icon4{
+        position: relative;
+        right:3%;
+    }
+.input button{
+    color: white;
+    font-weight: 600;
+    background-color: rgb(118, 118, 238);
+   padding: 10px 111px ;
+   border-radius: 12px;
+   margin-top: 15px;
+   transition: .4s;
+}
+.input button:hover{
+    background-color: rgb(219, 85, 107);
+}
+/* .btn{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+.log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.log a{
+    margin-left: 12px;
+}
